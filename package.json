@@ -1,0 +1,25 @@
+{
+  "name": "git-portfolio",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "build": "tailwindcss -i ./css/input.css -o ./css/style.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.19"
+  },
+  "description": "Personal portfolio website using HTML, CSS, JavaScript with proper Git workflow (branching, PR, tagging).",
+  "main": "tailwind.config.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kiagusgatot/git-portfolio.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/kiagusgatot/git-portfolio/issues"
+  },
+  "homepage": "https://github.com/kiagusgatot/git-portfolio#readme"
+}
