@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Reusable section layout */
+@layer components {
+  .section {
+    @apply py-20 px-4 max-w-6xl mx-auto;
+  }
+}
